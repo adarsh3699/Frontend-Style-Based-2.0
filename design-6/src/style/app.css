@@ -1,0 +1,112 @@
+.App {
+	text-align: center;
+}
+
+.nav_1 {
+	padding: 38px 55px 10px;
+	border-bottom: 1px solid rgb(236, 236, 236);
+	display: flex;
+	justify-content: space-between;
+}
+
+.brandLogo {
+	height: 44px;
+}
+
+.nav_1_right {
+	display: flex;
+}
+
+.icon {
+	height: 26px;
+	color: black;
+	/* padding-right: 0.5rem; */
+	/* padding-left: 0.5rem; */
+	font-weight: 500;
+	font-size: 0.9375rem;
+}
+
+.icon_2 {
+	margin: 0 25px;
+}
+
+.dropdown::after {
+	display: inline-block;
+	margin-left: 0.255em;
+	vertical-align: text-top;
+	content: "";
+	border-top: 0.3em solid;
+	border-right: 0.3em solid transparent;
+	border-bottom: 0;
+	border-left: 0.3em solid transparent;
+}
+
+.nav_2 {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 50px;
+}
+
+.nav_2 a {
+	text-decoration: unset;
+	color: black;
+	font-size: 15px;
+	font-weight: 600;
+}
+.contents {
+	margin: 30px 60px 200px;
+}
+
+.pageTilte {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 3rem 0 6rem;
+}
+
+.pageTitle {
+	font-size: 22px;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.navigationLoc {
+	display: flex;
+	align-items: center;
+}
+
+.pageLoc {
+	color: #6c757d;
+	margin-left: 0.5rem;
+}
+
+.pageLoc::before {
+	float: left;
+	padding-right: 0.5rem;
+	color: #6c757d;
+	content: var(--bs-breadcrumb-divider, "/")
+		/* rtl: var(--bs-breadcrumb-divider, "/") */;
+}
+
+.downloadBtn {
+	border-radius: 5px;
+	margin-left: 60px;
+	height: max-content;
+	width: max-content;
+	padding: 0.7rem 1rem;
+	border: 2px solid #e27498;
+	color: #e27498;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.tableTitle {
+	margin-bottom: 20px;
+	font-size: 25px;
+	color: rgb(226, 116, 152);
+	font-weight: 500;
+	padding-bottom: 5px;
+	width: max-content;
+	border-bottom: 2px solid rgb(226, 116, 152);
+}
